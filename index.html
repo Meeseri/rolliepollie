@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RolliePollie</title>
+    <link rel="icon" type="image/x-icon" href="smile.ico">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" media="all">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+  </head>
+<body>
+<div class="frame-content">
+
+
+ <!--Left side bar :3-->
+
+
+
+
+  <!--MOD Widget-->
+<div class="interest-box">
+  <h3>Message of the Day</h3>
+  <p id="motd">Lots more features to come! <3</p>
+</div>
+
+
+<!--Mood Tracker-->
+<div class="interest-box">
+  <h3>Lil' Mood Tracker</h3>
+  <div class="mood-tracker">
+    <button data-mood="😊" class="mood-button">😊</button>
+    <button data-mood="😐" class="mood-button">😐</button>
+    <button data-mood="😢" class="mood-button">😢</button>
+  </div>
+  <p id="mood-display">Current Mood: <span id="current-mood">😊</span></p>
+</div>
+  <div class="interest-box">
+    <h3>Sign my Guestbook</h3>
+    <form id="guestbook-form">
+      <label for="guest-name">Name:</label>
+      <input type="text" id="guest-name" name="guest-name" required>
+      <label for="guest-message">Message:</label>
+      <textarea name="guest-message" id="guest-message" rows="3" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="guestbook-entry">
+    <!--Where guest entries live c:-->
+
+    </div>
+  </div> 
+</aside>
+</div>
+
+
+<main>
+      <header>
+        <h1>Welcome to Rollie Pollie Territory!</h1>
+      </header>
+
+<!--Navigation!-->
+  <nav>
+      <a href="index.html" class="nav-button">
+        <i class="fas fa-home"></i>
+        Home</a>
+
+      <a href="webmaster.html" class="nav-button">
+        <i class="fas fa-user"></i>
+        About me!</a>
+      <a href="" class="nav-button">
+        <i class="fas fa-heart"></i>
+        Hyperfixations</a>
+
+      <a href="" class="nav-button">
+        <i class="fas fa-link"></i>
+        Links!!</a>
+  </nav>
+  
+  <body>
+    <div class="intro">
+      <h1 >Well, then, how'd you end up  here?</h1>
+      <img src="frutiger aero.gif" alt="aero frutiger gif" style="width: 100px; height: auto; margin-top: 10; margin-bottom: 10px;">
+
+      <p>
+
+        Welcome to my internet home!<br>
+        As you can see... this is very much under construction!<br>
+        Check out my pages and enjoy your visit here. :3
+            
+      </p>
+
+    
+      
+    
+    </div>
+  
+    <footer>
+      <div class="footer-content">
+      <p>© 2025 Rollie Pollie Territory. All rights reserved.</p>
+      <div class="gifs">
+      <img src="jackpika.gif" alt="Under Construction" class="footer-gif">
+      <img src="loadingbar.gif" alt="Under Construction bar" class="loading-bar">
+      <img src="pikastructionwave.gif" alt="Under Construction" class="footer-gif">
+      </div>
+    </div>
+    </footer>
+  </main>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
+
